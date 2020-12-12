@@ -1,4 +1,4 @@
-window.onload = function(){
+window.onload = function () {
 	var olnput = document.createElement("input");
 	olnput.id = "submit";
 	olnput.type = "button";
