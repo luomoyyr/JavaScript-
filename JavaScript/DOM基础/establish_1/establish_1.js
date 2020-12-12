@@ -1,0 +1,1 @@
+window.onload = function() {    var oDiv = document.getElementById("content");    var oStrong = document.createElement("strong");    var oTxt = document.createTextNode("456");    oStrong.appendChild(oTxt);    oDiv.appendChild(oStrong);}

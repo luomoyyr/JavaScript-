@@ -1,0 +1,11 @@
+var d = new Date;
+var week = new Array(7);
+week[0] = "星期日";
+week[1] = "星期一";
+week[2] = "星期二";
+week[3] = "星期三";
+week[4] = "星期四";
+week[5] = "星期五";
+week[6] = "星期六";
+document.write("getUTCDay()获取数组下标是：" + d.getUTCDay() + "<br />");
+document.write("今天是：" + week[d.getUTCDay()]);
